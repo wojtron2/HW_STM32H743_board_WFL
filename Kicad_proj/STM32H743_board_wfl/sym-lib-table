@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "STM32BOARD_LIB") (type "") (uri "${KIPRJMOD}/footprints_lib/stm32h743_board_footlib.pretty") (options "") (descr ""))
+)
