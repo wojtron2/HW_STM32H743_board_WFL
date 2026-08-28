@@ -252,7 +252,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "stm32h743_board_footlib"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -416,7 +418,7 @@
         "uuid": "3ffbaf01-8fe7-4f96-b685-21b9df9d548a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC1,U4,L2,D1,#PWR5-7,C6-8",
     "variants": []
   },
   "sheets": [

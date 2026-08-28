@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "stm32h743_board_footlib") (type "KiCad") (uri "${KIPRJMOD}/footprints_lib/stm32h743_board_footlib.pretty") (options "") (descr ""))
+)
