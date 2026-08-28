@@ -2728,7 +2728,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H743VITx")
-		(at 214.884 132.588 0)
+		(at 226.314 136.144 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2738,8 +2738,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ba7a8a-048e-488f-be5b-f4cfd44834bf")
-		(property "Reference" "U1"
-			(at 219.5673 200.914 0)
+		(property "Reference" "U3"
+			(at 230.9973 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2750,7 +2750,7 @@
 			)
 		)
 		(property "Value" "STM32H743VITx"
-			(at 219.5673 203.454 0)
+			(at 230.9973 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 197.104 198.628 0)
+			(at 208.534 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +2773,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
-			(at 214.884 132.588 0)
+			(at 226.314 136.144 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +2784,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
-			(at 214.884 132.588 0)
+			(at 226.314 136.144 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3097,7 +3097,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)

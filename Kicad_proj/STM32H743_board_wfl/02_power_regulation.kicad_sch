@@ -739,7 +739,7 @@
 	)
 	(symbol
 		(lib_id "LT8609S:LT8609SEV#PBF")
-		(at 64.77 66.802 0)
+		(at 87.63 89.916 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -749,8 +749,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "133491f7-c82f-402d-adac-1624223c5fae")
-		(property "Reference" "IC1"
-			(at 80.01 59.69 0)
+		(property "Reference" "U1"
+			(at 102.87 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -760,7 +760,7 @@
 			)
 		)
 		(property "Value" "LT8609SEV#PBF"
-			(at 80.01 62.23 0)
+			(at 102.87 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -770,7 +770,7 @@
 			)
 		)
 		(property "Footprint" "LT8609SEVPBF"
-			(at 91.44 161.722 0)
+			(at 114.3 184.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -782,7 +782,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/8609Sf.pdf"
-			(at 91.44 261.722 0)
+			(at 114.3 284.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -794,7 +794,7 @@
 			)
 		)
 		(property "Description" "42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5A Quiescent Current"
-			(at 64.77 66.802 0)
+			(at 87.63 89.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -805,7 +805,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 91.44 461.722 0)
+			(at 114.3 484.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -817,7 +817,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 91.44 561.722 0)
+			(at 114.3 584.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -829,7 +829,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT8609SEV#PBF"
-			(at 91.44 661.722 0)
+			(at 114.3 684.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -841,7 +841,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT8609SEVPBF"
-			(at 91.44 761.722 0)
+			(at 114.3 784.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -853,7 +853,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8609SEVPBF?qs=BZBei1rCqCCvvHT89A2j%2FQ%3D%3D"
-			(at 91.44 861.722 0)
+			(at 114.3 884.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -865,7 +865,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LT8609SEV#PBF"
-			(at 91.44 961.722 0)
+			(at 114.3 984.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -877,7 +877,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lt8609sevpbf/analog-devices?utm_currency=USD&region=nac"
-			(at 91.44 1061.722 0)
+			(at 114.3 1084.836 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -954,7 +954,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/7e382ae8-ebae-4cf7-a9c0-9d94550a09cc"
-					(reference "IC1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -962,7 +962,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:TPS7A20xxxDBV")
-		(at 144.526 124.968 0)
+		(at 221.996 91.948 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -972,8 +972,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a28986-be6c-4e6d-9a15-a07b2c8f62c2")
-		(property "Reference" "U4"
-			(at 144.526 115.062 0)
+		(property "Reference" "U2"
+			(at 221.996 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -983,7 +983,7 @@
 			)
 		)
 		(property "Value" "TPS7A2033PDBVR"
-			(at 144.526 117.602 0)
+			(at 221.996 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 144.526 116.078 0)
+			(at 221.996 83.058 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1004,7 +1004,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
-			(at 144.526 112.268 0)
+			(at 221.996 79.248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1015,7 +1015,7 @@
 			)
 		)
 		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
-			(at 144.526 124.968 0)
+			(at 221.996 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1043,7 +1043,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/7e382ae8-ebae-4cf7-a9c0-9d94550a09cc"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
