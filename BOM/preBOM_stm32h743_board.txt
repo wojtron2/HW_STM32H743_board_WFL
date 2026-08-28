@@ -1,4 +1,14 @@
 STM32H743
 LQFP100
 
+
+tu akurat dostępność słaba u różnych dostawców - jednak kluczowy element projektu
+STM32H743VIT6
+https://www.mouser.pl/pl/ProductDetail/STMicroelectronics/STM32H743VIT6?qs=FNcb6ahWXRw0Me5k2ZHgWw%3D%3D
+
+
+
+jak wyżej - aktualnie słaba dostępność ale wymóg projektu
+
 IMU Bosch BMI088
+https://www.mouser.pl/pl/ProductDetail/Bosch-Sensortec/BMI088?qs=f9yNj16SXrIMFspTV6RB6Q%3D%3D
