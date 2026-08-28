@@ -653,7 +653,7 @@
         "uuid": "3ffbaf01-8fe7-4f96-b685-21b9df9d548a"
       }
     ],
-    "used_designators": "IC1,U4,L2,D1,#PWR5-7,C6-8",
+    "used_designators": "IC1,U1,U4,#PWR5-7,D1,L2,C6-8",
     "variants": []
   },
   "sheets": [

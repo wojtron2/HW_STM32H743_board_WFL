@@ -2,7 +2,11 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "9ce7ef2b-f4f2-4062-b404-1fd5adff6198")
+	(uuid "cc2ea629-6aec-49ad-a694-63db023d691e")
 	(paper "A4")
+	(title_block
+		(title "STM32H743 board IMU BMI088 schematics")
+		(company "by wojtron")
+	)
 	(lib_symbols)
 )
