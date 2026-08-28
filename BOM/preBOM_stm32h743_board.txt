@@ -12,3 +12,19 @@ jak wyżej - aktualnie słaba dostępność ale wymóg projektu
 
 IMU Bosch BMI088
 https://www.mouser.pl/pl/ProductDetail/Bosch-Sensortec/BMI088?qs=f9yNj16SXrIMFspTV6RB6Q%3D%3D
+
+
+
+zasilanie DCDC SMPS
+
+
+zasilanie LDO dla uC STM32H743
+
+
+
+zasilanie dla IMU Bosch BMI088
+
+
+
+
+dioda TVS zabezpieczajaca na wejsciu od strony baterii
