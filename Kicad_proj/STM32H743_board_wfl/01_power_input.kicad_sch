@@ -882,133 +882,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-BATT"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-BATT"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-BATT\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-BATT_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "-BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1237,6 +1110,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.804 101.092) (xy 82.804 101.854)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f14f77-5db4-492c-97f3-413fc7befa3f")
+	)
+	(wire
+		(pts
 			(xy 137.668 85.852) (xy 137.668 89.408)
 		)
 		(stroke
@@ -1407,7 +1290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a301dd9-c6e1-4488-88ea-f84bf843e8e3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 117.348 107.442 0)
 			(hide yes)
 			(show_name no)
@@ -1463,84 +1346,6 @@
 		)
 		(pin "1"
 			(uuid "b3fa4365-b6fe-4b5d-a246-e668c4225305")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 82.804 101.092 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1441a02f-05a7-4da0-9c5d-5c94ceaa4ea6")
-		(property "Reference" "#PWR03"
-			(at 82.804 97.282 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 82.804 106.426 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.804 101.092 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.804 101.092 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 82.804 101.092 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e597bb33-e0e7-4fda-a4ad-482f86059720")
 		)
 		(instances
 			(project "STM32H743_board_wfl"
@@ -1863,7 +1668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e1181f7-a8f5-48aa-b196-73dcb92372b5")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 203.2 107.442 0)
 			(hide yes)
 			(show_name no)
@@ -1919,6 +1724,84 @@
 		)
 		(pin "1"
 			(uuid "664d2f34-1b18-4414-8caa-26060954c8d5")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.804 101.854 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0cc50b-5fba-45a5-802b-acbf049aa8ed")
+		(property "Reference" "#PWR05"
+			(at 82.804 108.204 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.804 106.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.804 101.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.804 101.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.804 101.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f81258d-2570-4640-b270-bddf95ed3d81")
 		)
 		(instances
 			(project "STM32H743_board_wfl"

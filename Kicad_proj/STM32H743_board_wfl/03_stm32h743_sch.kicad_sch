@@ -5483,133 +5483,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-BATT"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-BATT"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-BATT\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-BATT_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "-BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -6101,16 +5974,6 @@
 	(no_connect
 		(at 203.454 176.784)
 		(uuid "ed498c49-1896-48a3-a988-20371c7afb2b")
-	)
-	(wire
-		(pts
-			(xy 85.344 62.738) (xy 89.154 62.738)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0021fa57-945c-407b-ab35-9466882a103d")
 	)
 	(wire
 		(pts
@@ -7164,6 +7027,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.296 62.738) (xy 89.154 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e9d63d-da41-4585-af1e-de0df0f3a709")
+	)
+	(wire
+		(pts
 			(xy 82.55 105.41) (xy 78.74 105.41)
 		)
 		(stroke
@@ -7181,16 +7054,6 @@
 			(type default)
 		)
 		(uuid "a70c8d25-9012-42dd-a7a9-0bc7f51814fb")
-	)
-	(wire
-		(pts
-			(xy 78.74 81.026) (xy 85.852 81.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95538df-0057-49e6-900e-a4249fce02e0")
 	)
 	(wire
 		(pts
@@ -8351,7 +8214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04285093-6f3d-4f5e-922e-b7306d5bea57")
-		(property "Reference" "C31"
+		(property "Reference" "C20"
 			(at 209.55 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,7 +8278,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "C31")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8809,7 +8672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0726e355-18dd-4bf3-b789-7ed8bccc3aa8")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR048"
 			(at 68.072 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8869,7 +8732,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR066")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8887,7 +8750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2d5fdd-3bba-4cdf-b693-94ddb0562603")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 78.74 108.966 0)
 			(hide yes)
 			(show_name no)
@@ -8947,7 +8810,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8965,7 +8828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e9d8c2d-426b-496d-aa26-312eade40abd")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 159.258 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -9025,7 +8888,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9043,7 +8906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eacc8d3-e512-47ae-bd7e-d7bd5b4bdfcc")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 156.464 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9107,7 +8970,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -9206,7 +9069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15be241d-7d91-4ffc-ab73-2d187a01a891")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 113.792 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -9266,7 +9129,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9284,7 +9147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a7f5cc-e8bf-453b-9eb7-fb60cf4caefb")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR049"
 			(at 110.49 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9345,7 +9208,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR067")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9362,7 +9225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "190e5530-60bd-412a-b615-a2cba1051004")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 314.452 65.2779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9426,7 +9289,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "R13")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9721,7 +9584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a81f6b-35b8-4ad0-9ce4-3ebfda59de7c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 191.008 76.962 0)
 			(hide yes)
 			(show_name no)
@@ -9781,7 +9644,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9799,7 +9662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32884a5f-bec7-451a-8005-f878e38edf07")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 189.738 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -9859,7 +9722,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9949,83 +9812,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.852 81.026 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37ffbae4-3649-4341-8172-5c75a7110ae6")
-		(property "Reference" "#PWR038"
-			(at 85.852 87.376 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.852 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.852 81.026 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.852 81.026 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.852 81.026 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70fd0c0f-c094-41e0-b439-d36e23426225")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 75.438 107.95 270)
 		(unit 1)
 		(body_style 1)
@@ -10036,7 +9822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39fc56d1-6570-4a2d-a877-b61a0a217c53")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 69.088 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10097,7 +9883,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10115,7 +9901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eaa89ca-2ecb-40d9-8cb9-1ac7b2d93491")
-		(property "Reference" "C23"
+		(property "Reference" "C27"
 			(at 127.762 203.4539 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10179,7 +9965,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "C23")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -10196,7 +9982,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40ea1bbd-5401-40c4-95b6-594158ed7483")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR035"
 			(at 214.63 60.706 0)
 			(hide yes)
 			(show_name no)
@@ -10256,7 +10042,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR069")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10345,84 +10131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 85.344 62.738 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4948b95e-2c96-4d02-b505-89977bf33b1a")
-		(property "Reference" "#PWR034"
-			(at 89.154 62.738 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 82.042 62.738 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.344 62.738 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.344 62.738 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 85.344 62.738 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aaa94a63-7412-44c6-8e96-6fecaa691bcb")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 240.03 51.308 0)
 		(unit 1)
@@ -10434,7 +10142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49771315-7a13-488c-a2ee-fb17b0a0052f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 240.03 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -10494,7 +10202,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10512,7 +10220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8650b5-f70c-42a5-98a8-5bed375d2095")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR026"
 			(at 36.068 42.418 0)
 			(hide yes)
 			(show_name no)
@@ -10573,7 +10281,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR063")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a73d9e-9b23-42e4-a77a-c63cc9118273")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 85.344 63.754 0)
 			(hide yes)
 			(show_name no)
@@ -10732,7 +10440,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10750,7 +10458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55df8797-4de5-4e68-8676-386d25ab9204")
-		(property "Reference" "C30"
+		(property "Reference" "C22"
 			(at 320.548 77.2159 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +10522,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "C30")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -10996,7 +10704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aa9aa5b-505b-4e1d-bd4d-8bf4f31fe22c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 128.778 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -11056,7 +10764,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11074,7 +10782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c632e75-b652-4ee3-8d6f-098ea9fe0c21")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 199.644 203.708 0)
 			(hide yes)
 			(show_name no)
@@ -11134,7 +10842,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11152,7 +10860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600cfba4-4dbe-4c6c-9126-6328f7c0c3cc")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR040"
 			(at 316.992 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11212,7 +10920,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR068")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11231,7 +10939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c903c4-0dc7-4093-8dcd-ecda45a34fdb")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 187.452 64.0079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11295,7 +11003,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11313,7 +11021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631f0f66-afcc-4c4c-8047-962871727667")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR046"
 			(at 316.738 121.666 0)
 			(hide yes)
 			(show_name no)
@@ -11373,7 +11081,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR064")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11479,7 +11187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "708a85c0-f2a5-4dc8-a114-cccb78ab1b5b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 149.352 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11539,7 +11247,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11814,7 +11522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7889a7c1-37a7-4a67-8941-8f8cc7dc73cd")
-		(property "Reference" "L4"
+		(property "Reference" "L2"
 			(at 277.368 36.322 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +11584,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "L4")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -11895,7 +11603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d8e8041-b2b8-4f42-8729-dcbd21b0a5b5")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR058"
 			(at 88.138 233.426 0)
 			(hide yes)
 			(show_name no)
@@ -11955,7 +11663,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR048")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12217,7 +11925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82b59944-e2b9-4f90-b955-ff23df7e1bdb")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 146.812 81.5339 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12281,7 +11989,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12299,7 +12007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "863639cf-231a-439a-9315-bcc81d4532a7")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 171.45 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12363,7 +12071,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12381,7 +12089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a725d1a-9529-46bd-aa6f-65c343cdeae8")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR053"
 			(at 124.206 202.946 0)
 			(hide yes)
 			(show_name no)
@@ -12441,7 +12149,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR045")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12459,7 +12167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "918fe271-305a-4cf5-87e1-489c1d71994d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 254 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -12519,7 +12227,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12537,7 +12245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92f71d9e-d290-4547-b52b-e3f3c7473da5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR056"
 			(at 223.52 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12597,7 +12305,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR051")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12615,7 +12323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "977964af-ce32-4ed1-a753-be37b19bf924")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR057"
 			(at 231.394 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12675,7 +12383,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR052")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -12794,7 +12502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ede419b-7f52-4973-adb6-3d836ecfa2d0")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR054"
 			(at 124.206 216.154 0)
 			(hide yes)
 			(show_name no)
@@ -12854,7 +12562,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR046")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12943,84 +12651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 78.74 81.026 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "abe4e000-8e23-45fa-ab8a-cd62283b9d15")
-		(property "Reference" "#PWR037"
-			(at 78.74 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 81.534 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 81.026 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 81.026 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 78.74 81.026 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c65cca89-a4ca-4f36-b364-c61f6488ee7c")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 96.774 41.656 0)
 		(unit 1)
@@ -13032,7 +12662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9c5b6c-5c35-4d2f-b7b1-f4cc61c7c7da")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 96.774 45.466 0)
 			(hide yes)
 			(show_name no)
@@ -13092,7 +12722,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13110,7 +12740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcfe664f-74d4-4775-9b45-905c5c57df6f")
-		(property "Reference" "C24"
+		(property "Reference" "C28"
 			(at 113.792 203.7079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13174,7 +12804,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "C24")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -13192,7 +12822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd25ab98-93ea-4545-98af-f09a3bc5e877")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 289.56 45.974 0)
 			(hide yes)
 			(show_name no)
@@ -13252,7 +12882,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13270,7 +12900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c023dac2-3f06-48f2-ae44-9f7789aa841b")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR047"
 			(at 323.342 121.666 0)
 			(hide yes)
 			(show_name no)
@@ -13330,7 +12960,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR065")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13508,7 +13138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d172a403-e783-4874-96e2-4446ea80828b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 174.498 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -13568,7 +13198,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13587,7 +13217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ebb084-b3d2-4f14-9994-2bea75f4462d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 149.352 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -13647,7 +13277,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13747,7 +13377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d478e7b5-b79c-48ca-8b9d-cd3040e1c8b2")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 72.136 195.834 0)
 			(hide yes)
 			(show_name no)
@@ -13807,7 +13437,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13824,7 +13454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9e054f6-3949-45a1-a777-9b51bd6d3d46")
-		(property "Reference" "R6"
+		(property "Reference" "R13"
 			(at 69.596 197.3579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13888,7 +13518,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "R6")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13906,7 +13536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daaaf2f9-4a58-496f-aea8-9d88ce209f81")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR023"
 			(at 45.212 43.688 0)
 			(hide yes)
 			(show_name no)
@@ -13966,7 +13596,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR062")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13984,7 +13614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb08c95-e53a-432c-9ced-25608bf0396f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 144.272 57.658 0)
 			(hide yes)
 			(show_name no)
@@ -14044,7 +13674,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14062,7 +13692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de2f2464-6968-476a-a118-c79371121fd2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 187.452 203.708 0)
 			(hide yes)
 			(show_name no)
@@ -14122,7 +13752,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14454,6 +14084,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 82.296 62.738 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1b9933c-5b06-4d02-9900-37b9ddc43f83")
+		(property "Reference" "#PWR037"
+			(at 75.946 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.978 62.738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.296 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.296 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.296 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be0204d7-2f1e-478a-bfc8-d32477a8bbfe")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 109.982 210.058 0)
 		(mirror y)
 		(unit 1)
@@ -14465,7 +14173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa7e83dc-7ceb-4bea-a0bc-076fe8e9b64d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR055"
 			(at 109.982 216.408 0)
 			(hide yes)
 			(show_name no)
@@ -14525,7 +14233,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
-					(reference "#PWR047")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

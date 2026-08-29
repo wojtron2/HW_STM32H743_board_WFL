@@ -122,7 +122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24263e25-2fea-4024-bd86-cc7af33c4d9a")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 119.38 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -180,7 +180,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a"
-					(reference "H4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -198,7 +198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab44e62-989c-4aca-83f7-9cbd2f41f06a")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 99.314 175.5139 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -256,7 +256,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -274,7 +274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4d1a622-fbe1-437b-bff6-0687bb7ecc15")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 78.486 175.7679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -332,7 +332,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -350,7 +350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e69ae080-efab-404d-b0a0-0ef67c84a48d")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 57.404 176.0219 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -408,7 +408,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
