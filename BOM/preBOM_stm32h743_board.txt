@@ -21,13 +21,10 @@ LT8609SEV#PBF
 https://www.mouser.pl/pl/ProductDetail/Analog-Devices/LT8609SEVPBF?qs=BZBei1rCqCCvvHT89A2j%2FQ%3D%3D
 
 
-
+ 
 zasilanie LDO dla uC STM32H743
-TPS7A2033PDBVR - 3.3v fixed-output LDO
-dobre tłumienie (high PSRR), dobra stabilność napięcia wyjściowego
-https://www.tme.eu/pl/details/tps7a2033pdbvr/stabilizatory-napiecia-nieregulowane-ldo/texas-instruments/
-
-https://www.mouser.pl/pl/ProductDetail/Texas-Instruments/TPS7A2033PDBVR?qs=hd1VzrDQEGjk%2FOBnRfKB4A%3D%3D
+AP7361C-33E
+https://www.mouser.pl/pl/ProductDetail/Diodes-Incorporated/AP7361C-33E-13?qs=X421pCAdHWeIInddOHvgmw%3D%3D
 
 
 
@@ -37,3 +34,83 @@ zasilanie dla IMU Bosch BMI088
 
 
 dioda TVS zabezpieczajaca na wejsciu od strony baterii
+SMBJ26A
+https://www.tme.eu/pl/details/smbj26a-tr/diody-tvs-smd-jednokierunkowe/stmicroelectronics/
+
+
+
+kwarc stm32h743
+ABM3-8.000MHZ-D2Y-T
+https://www.mouser.pl/pl/ProductDetail/ABRACON/ABM3-8.000MHZ-D2Y-T?qs=ihRgKfnEsN4giUXjc3yS1g%3D%3D
+
+kond kwarca 27pF
+https://www.mouser.pl/pl/ProductDetail/KYOCERA-AVX/04023U270JAT2A?qs=%252BdQmOuGyFcGHQXol69SFgA%3D%3D
+
+
+bezpiecznik 1A
+https://www.tme.eu/pl/details/0680l1000-05/bezpieczniki-smd-2410-zwloczne/bel-fuse/
+
+
+ferryt dla vdda i BMI088
+BLM21PG221SN1D
+https://www.tme.eu/pl/details/blm21pg221sn1d/ferryty-koraliki/murata/
+
+
+flash
+W25Q512JVEIQ
+https://www.mouser.pl/pl/ProductDetail/Winbond/W25Q512JVEIQ-TR?qs=l7cgNqFNU1jq8%252B28uQ9f7A%3D%3D
+
+
+10pF 0402
+
+10nF 0402 X7R
+https://www.mouser.pl/pl/ProductDetail/Vishay-Vitramon/VJ0402Y103KXQCW1BC?qs=sGAEpiMZZMs7ZEmUmaUL04C6UVkcPIngZNg5BfTRqio%3D
+
+100nF 0402 X7R
+https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D
+
+1uF 0603
+https://www.mouser.pl/pl/ProductDetail/Walsin/SH18B105K160CT?qs=sGAEpiMZZMvsSlwiRhF8qtsBU8Zhqm2RmT0Bgn2YuQ8dzHrby8oIxA%3D%3D
+
+2.2uF 0603
+https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/GRM188Z71E225KE43D?qs=sGAEpiMZZMvsSlwiRhF8qsL%2Fc0EXNue%2FUl3OY%2F%252BvRBIAemJQfDeE9w%3D%3D
+
+4.7uF 0603
+https://www.mouser.pl/pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KO8NNNC?qs=sGAEpiMZZMvsSlwiRhF8qvCY8MbTG5UFi%252BwjfjdYnr4%3D
+
+
+47uF 1206
+https://www.mouser.pl/pl/ProductDetail/TDK/C3216X5R1C476M160AB?qs=sGAEpiMZZMvsSlwiRhF8qsDt8B2LujiHTbQnXF56jQ8%3D
+
+
+
+10k rez 0402
+
+18.2k rez 0402
+
+100k rez 0402
+
+182k rez 0402
+
+1M rez 0402
+
+
+L1 2.2uH
+TDK SPM3020T-2R2M-LR
+https://www.mouser.pl/pl/ProductDetail/TDK/SPM3020T-2R2M-LR?qs=P8zzrVhehatRwwTBeABiag%3D%3D
+
+EW mniejszy
+TDK VLS252012HBX-2R2M-1
+
+
+z old
+
+LDL1117S33R
+https://www.mouser.pl/pl/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D
+
+AP7361C-33E
+https://www.mouser.pl/pl/ProductDetail/Diodes-Incorporated/AP7361C-33E-13?qs=X421pCAdHWeIInddOHvgmw%3D%3D
+
+zold kwarc 16mhz
+ABM10W-16.0000MHZ-6-D1X-T3
+https://www.mouser.pl/pl/ProductDetail/ABRACON/ABM10W-16.0000MHZ-6-D1X-T3?qs=5aG0NVq1C4yLnsl6cawI1Q%3D%3D
