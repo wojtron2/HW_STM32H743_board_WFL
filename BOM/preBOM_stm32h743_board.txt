@@ -25,9 +25,9 @@ https://www.mouser.pl/pl/ProductDetail/Analog-Devices/LT8609SEVPBF?qs=BZBei1rCqC
 zasilanie LDO dla uC STM32H743
 TPS7A2033PDBVR - 3.3v fixed-output LDO
 dobre tłumienie (high PSRR), dobra stabilność napięcia wyjściowego
-https://www.mouser.pl/pl/ProductDetail/Texas-Instruments/TPS7A2033PDBVR?qs=hd1VzrDQEGjk%2FOBnRfKB4A%3D%3D
-
 https://www.tme.eu/pl/details/tps7a2033pdbvr/stabilizatory-napiecia-nieregulowane-ldo/texas-instruments/
+
+https://www.mouser.pl/pl/ProductDetail/Texas-Instruments/TPS7A2033PDBVR?qs=hd1VzrDQEGjk%2FOBnRfKB4A%3D%3D
 
 
 
