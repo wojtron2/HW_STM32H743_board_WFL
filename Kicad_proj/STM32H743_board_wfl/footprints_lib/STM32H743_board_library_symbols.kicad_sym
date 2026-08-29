@@ -637,7 +637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LT8609SEVPBF"
+		(property "Footprint" "STM32H743_board_library_footprints:LT8609SEVPBF"
 			(at 26.67 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -305,36 +305,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LT8609S:LT8609SEV#PBF"
+		(symbol "Regulator_Linear:AP7361C-33E"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "LT8609SEV#PBF"
-				(at 26.67 5.08 0)
+			(property "Value" "AP7361C-33E"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" "LT8609SEVPBF"
-				(at 26.67 -94.92 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
+				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -342,22 +356,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/8609Sf.pdf"
-				(at 26.67 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5A Quiescent Current"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -368,8 +369,8 @@
 					)
 				)
 			)
-			(property "Height" "1"
-				(at 26.67 -394.92 0)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -377,11 +378,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Analog Devices"
-				(at 26.67 -494.92 0)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -389,73 +389,12 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "LT8609SEV#PBF"
-				(at 26.67 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "584-LT8609SEVPBF"
-				(at 26.67 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8609SEVPBF?qs=BZBei1rCqCCvvHT89A2j%2FQ%3D%3D"
-				(at 26.67 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "LT8609SEV#PBF"
-				(at 26.67 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lt8609sevpbf/analog-devices?utm_currency=USD&region=nac"
-				(at 26.67 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "LT8609SEV#PBF_1_1"
+			(symbol "AP7361C-33E_0_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -27.94)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -464,6 +403,228 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "AP7361C-33E_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STM32H743_board_library_symbols:LT8609SEV#PBF"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 6.858 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LT8609SEV#PBF"
+				(at 10.414 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "STM32H743_board_library_footprints:LT8609SEVPBF"
+				(at 26.67 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/8609Sf.pdf"
+				(at 26.67 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5A Quiescent Current"
+				(at 12.192 12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description_1" "42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5A Quiescent Current"
+				(at 26.67 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Height" "1"
+				(at 26.67 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 26.67 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LT8609SEV#PBF"
+				(at 26.67 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Part Number" "584-LT8609SEVPBF"
+				(at 26.67 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8609SEVPBF?qs=BZBei1rCqCCvvHT89A2j%2FQ%3D%3D"
+				(at 26.67 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Arrow Part Number" "LT8609SEV#PBF"
+				(at 26.67 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lt8609sevpbf/analog-devices?utm_currency=USD&region=nac"
+				(at 26.67 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "LT8609SEV#PBF_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -843,160 +1004,17 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:AP7361C-33E"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "LT8609SEV#PBF_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -27.94) (xy 5.08 -27.94) (xy 5.08 2.54)
 					)
-				)
-			)
-			(property "Value" "AP7361C-33E"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AP7361C-33E_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0.1524)
+						(type solid)
 					)
 					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP7361C-33E_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(type none)
 					)
 				)
 			)
@@ -2440,7 +2458,7 @@
 		(uuid "ff334ff5-8318-434f-b4ed-950a49952ceb")
 	)
 	(symbol
-		(lib_id "LT8609S:LT8609SEV#PBF")
+		(lib_id "STM32H743_board_library_symbols:LT8609SEV#PBF")
 		(at 123.19 65.278 0)
 		(unit 1)
 		(body_style 1)
@@ -2452,7 +2470,7 @@
 		(fields_autoplaced yes)
 		(uuid "133491f7-c82f-402d-adac-1624223c5fae")
 		(property "Reference" "U1"
-			(at 138.43 57.912 0)
+			(at 138.43 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2462,7 +2480,7 @@
 			)
 		)
 		(property "Value" "LT8609SEV#PBF"
-			(at 138.43 60.452 0)
+			(at 138.43 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2471,8 +2489,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LT8609SEVPBF"
-			(at 149.86 160.198 0)
+		(property "Footprint" "STM32H743_board_library_footprints:LT8609SEVPBF"
+			(at 149.86 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,11 +2498,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/8609Sf.pdf"
-			(at 149.86 260.198 0)
+			(at 149.86 65.278 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2492,11 +2510,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Description" "42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5A Quiescent Current"
-			(at 123.19 65.278 0)
+			(at 135.382 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2507,7 +2525,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 149.86 460.198 0)
+			(at 149.86 70.358 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,11 +2533,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 149.86 560.198 0)
+			(at 149.86 72.898 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,11 +2545,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT8609SEV#PBF"
-			(at 149.86 660.198 0)
+			(at 149.86 75.438 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,11 +2557,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Mouser Part Number" "584-LT8609SEVPBF"
-			(at 149.86 760.198 0)
+			(at 149.86 77.978 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2551,11 +2569,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8609SEVPBF?qs=BZBei1rCqCCvvHT89A2j%2FQ%3D%3D"
-			(at 149.86 860.198 0)
+			(at 149.86 80.518 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2563,11 +2581,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Arrow Part Number" "LT8609SEV#PBF"
-			(at 149.86 960.198 0)
+			(at 149.86 83.058 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2575,11 +2593,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lt8609sevpbf/analog-devices?utm_currency=USD&region=nac"
-			(at 149.86 1060.198 0)
+			(at 149.86 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,7 +2605,19 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
+			)
+		)
+		(property "Description_1" "42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5A Quiescent Current"
+			(at 149.86 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
