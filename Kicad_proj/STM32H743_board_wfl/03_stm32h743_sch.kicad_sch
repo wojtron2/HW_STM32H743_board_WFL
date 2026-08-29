@@ -6311,6 +6311,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.356 89.154) (xy 184.15 89.154)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c5725b-a77b-4a31-9f98-703540a92b61")
+	)
+	(wire
+		(pts
 			(xy 231.394 42.164) (xy 228.854 42.164)
 		)
 		(stroke
@@ -9011,7 +9021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27pF"
+		(property "Value" "10pF"
 			(at 156.464 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/KYOCERA-AVX/04023U270JAT2A?qs=%252BdQmOuGyFcGHQXol69SFgA%3D%3D"
+		(property "Datasheet" "https://www.tme.eu/pl/details/grm1555c1h100ga01d/kondensatory-mlcc-smd/murata/"
 			(at 160.528 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11104,6 +11114,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 89.154 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62d486c0-8c13-4efb-b734-22d0ca8a1b80")
+		(property "Reference" "#PWR068"
+			(at 190.5 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 188.468 89.1539 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4533d57f-921b-4a8d-a83b-60554fad6301")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 316.738 117.856 0)
 		(unit 1)
@@ -12117,7 +12207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27pF"
+		(property "Value" "10pF"
 			(at 171.45 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12139,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/KYOCERA-AVX/04023U270JAT2A?qs=%252BdQmOuGyFcGHQXol69SFgA%3D%3D"
+		(property "Datasheet" "https://www.tme.eu/pl/details/grm1555c1h100ga01d/kondensatory-mlcc-smd/murata/"
 			(at 168.148 97.79 0)
 			(hide yes)
 			(show_name no)

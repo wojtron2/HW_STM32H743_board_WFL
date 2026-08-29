@@ -43,8 +43,9 @@ kwarc stm32h743
 TSX-3225 16.0000MF18X-AC0
 https://www.mouser.pl/pl/ProductDetail/Epson-Timing/TSX-3225-16.0000MF18X-AC0?qs=wwacUt%252BV97taurHtFwy%2FEA%3D%3D
 
-kond kwarca 27pF
-https://www.mouser.pl/pl/ProductDetail/KYOCERA-AVX/04023U270JAT2A?qs=%252BdQmOuGyFcGHQXol69SFgA%3D%3D
+kond kwarca 10pF
+https://www.tme.eu/pl/details/grm1555c1h100ga01d/kondensatory-mlcc-smd/murata/
+
 
 
 bezpiecznik 1A
@@ -117,6 +118,10 @@ ABM10W-16.0000MHZ-6-D1X-T3
 https://www.mouser.pl/pl/ProductDetail/ABRACON/ABM10W-16.0000MHZ-6-D1X-T3?qs=5aG0NVq1C4yLnsl6cawI1Q%3D%3D
 
 
+/////
 kwarc stm32h743
 ABM3-8.000MHZ-D2Y-T
 https://www.mouser.pl/pl/ProductDetail/ABRACON/ABM3-8.000MHZ-D2Y-T?qs=ihRgKfnEsN4giUXjc3yS1g%3D%3D
+
+kond kwarca 27pF
+https://www.mouser.pl/pl/ProductDetail/KYOCERA-AVX/04023U270JAT2A?qs=%252BdQmOuGyFcGHQXol69SFgA%3D%3D
