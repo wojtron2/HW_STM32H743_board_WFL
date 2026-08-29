@@ -2269,8 +2269,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de328cbb-800c-4638-960b-1acb97f55844")
-		(property "Reference" "F2"
-			(at 101.854 78.486 0)
+		(property "Reference" "F1"
+			(at 101.854 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2280,7 +2280,7 @@
 			)
 		)
 		(property "Value" "1A Fuse 0680L1000-05"
-			(at 101.854 81.026 0)
+			(at 101.854 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2380,7 +2380,7 @@
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
