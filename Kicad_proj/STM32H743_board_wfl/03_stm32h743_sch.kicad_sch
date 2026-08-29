@@ -5733,19 +5733,13 @@
 		(uuid "06d298ce-c972-4c31-939d-fbaeaab69220")
 	)
 	(junction
-		(at 221.234 62.484)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ab2f618-5eff-454b-b0f7-2168366f88ad")
-	)
-	(junction
-		(at 145.288 42.164)
+		(at 128.778 42.164)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18350823-0128-4198-90b3-d88830a016fa")
 	)
 	(junction
-		(at 130.302 42.164)
+		(at 113.792 42.164)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b3333d9-babd-4345-ab56-05ecc1c15e71")
@@ -5769,6 +5763,12 @@
 		(uuid "5a54bbb8-1d9c-4439-b645-004bc8d1e70a")
 	)
 	(junction
+		(at 218.694 45.212)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64bcc559-db51-4558-bf61-af0772ec6851")
+	)
+	(junction
 		(at 72.136 205.486)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5787,7 +5787,7 @@
 		(uuid "6d345b7e-50de-49a7-a607-3281b8bf3191")
 	)
 	(junction
-		(at 160.782 42.164)
+		(at 144.272 42.164)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fbb89ae-cb62-4208-bc1d-92d5752f9809")
@@ -5796,7 +5796,13 @@
 		(at 221.234 42.164)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81543050-5d1c-4cb0-8907-4e95cc357913")
+		(uuid "7137ccc1-6bb7-43e2-8ef5-ec4070b5f1b0")
+	)
+	(junction
+		(at 218.694 42.164)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a13cd88-b488-45c2-8d63-5c55d7d12bea")
 	)
 	(junction
 		(at 149.352 77.724)
@@ -5805,7 +5811,7 @@
 		(uuid "81598ecb-2dd1-47bb-bb54-f10b7a858923")
 	)
 	(junction
-		(at 175.768 42.164)
+		(at 159.258 42.164)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84f0464f-aa68-4dc5-8a4d-95e0430e097f")
@@ -5865,13 +5871,13 @@
 		(uuid "d370da11-b677-4e11-bec0-ba1dd06c8102")
 	)
 	(junction
-		(at 206.248 42.164)
+		(at 189.738 42.164)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e63c8158-3429-4751-8e1b-79b1ae81d5c6")
 	)
 	(junction
-		(at 191.008 42.164)
+		(at 174.498 42.164)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed9666cb-0de5-4edd-b013-ec6d5b04d53c")
@@ -6108,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.008 49.784) (xy 191.008 51.308)
+			(xy 174.498 49.784) (xy 174.498 51.308)
 		)
 		(stroke
 			(width 0)
@@ -6168,7 +6174,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.284 42.164) (xy 113.284 41.656)
+			(xy 96.774 42.164) (xy 96.774 41.656)
 		)
 		(stroke
 			(width 0)
@@ -6178,7 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.288 42.164) (xy 160.782 42.164)
+			(xy 128.778 42.164) (xy 144.272 42.164)
 		)
 		(stroke
 			(width 0)
@@ -6238,7 +6244,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.008 42.164) (xy 206.248 42.164)
+			(xy 174.498 42.164) (xy 189.738 42.164)
 		)
 		(stroke
 			(width 0)
@@ -6265,6 +6271,16 @@
 			(type default)
 		)
 		(uuid "1ce04a21-1334-41e7-b1e6-5fdf94e1bbc2")
+	)
+	(wire
+		(pts
+			(xy 218.694 42.164) (xy 218.694 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e31127-8c97-49ed-88a1-b9134fb158f3")
 	)
 	(wire
 		(pts
@@ -6428,16 +6444,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 62.484) (xy 221.234 62.484)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44cb04a2-24f8-4a50-90db-5f5940f1ccd0")
-	)
-	(wire
-		(pts
 			(xy 249.174 90.424) (xy 279.908 90.424)
 		)
 		(stroke
@@ -6458,7 +6464,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 42.164) (xy 113.284 42.164)
+			(xy 113.792 42.164) (xy 96.774 42.164)
 		)
 		(stroke
 			(width 0)
@@ -6498,7 +6504,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.248 42.164) (xy 221.234 42.164)
+			(xy 189.738 42.164) (xy 218.694 42.164)
 		)
 		(stroke
 			(width 0)
@@ -6568,7 +6574,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.782 42.164) (xy 175.768 42.164)
+			(xy 144.272 42.164) (xy 159.258 42.164)
 		)
 		(stroke
 			(width 0)
@@ -6778,7 +6784,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.248 49.784) (xy 206.248 51.308)
+			(xy 189.738 49.784) (xy 189.738 51.308)
 		)
 		(stroke
 			(width 0)
@@ -6958,7 +6964,17 @@
 	)
 	(wire
 		(pts
-			(xy 145.288 49.784) (xy 145.288 51.308)
+			(xy 214.63 52.832) (xy 214.63 54.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de4d724-c187-4a4d-bd5f-583b7aa65f64")
+	)
+	(wire
+		(pts
+			(xy 128.778 49.784) (xy 128.778 51.308)
 		)
 		(stroke
 			(width 0)
@@ -7088,7 +7104,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 42.164) (xy 145.288 42.164)
+			(xy 113.792 42.164) (xy 128.778 42.164)
 		)
 		(stroke
 			(width 0)
@@ -7098,7 +7114,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.768 42.164) (xy 191.008 42.164)
+			(xy 159.258 42.164) (xy 174.498 42.164)
 		)
 		(stroke
 			(width 0)
@@ -7198,6 +7214,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.694 62.484) (xy 218.694 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1fa616-7435-42f1-9282-8fa4b91444ea")
+	)
+	(wire
+		(pts
 			(xy 316.992 72.644) (xy 316.992 74.676)
 		)
 		(stroke
@@ -7278,7 +7304,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.782 49.784) (xy 160.782 51.308)
+			(xy 144.272 49.784) (xy 144.272 51.308)
 		)
 		(stroke
 			(width 0)
@@ -7498,6 +7524,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.694 45.212) (xy 214.63 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dafdbe2e-4cc9-446e-b0e9-024accb589c9")
+	)
+	(wire
+		(pts
 			(xy 268.224 126.238) (xy 268.224 131.064)
 		)
 		(stroke
@@ -7548,7 +7584,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 49.784) (xy 130.302 51.308)
+			(xy 113.792 49.784) (xy 113.792 51.308)
 		)
 		(stroke
 			(width 0)
@@ -7648,7 +7684,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.768 49.784) (xy 175.768 51.308)
+			(xy 218.694 42.164) (xy 221.234 42.164)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f896b9a4-f671-47a3-9ce1-e642656afc57")
+	)
+	(wire
+		(pts
+			(xy 159.258 49.784) (xy 159.258 51.308)
 		)
 		(stroke
 			(width 0)
@@ -8295,6 +8341,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 214.63 49.022 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04285093-6f3d-4f5e-922e-b7306d5bea57")
+		(property "Reference" "C31"
+			(at 209.55 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 208.28 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.5952 52.832 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
+			(at 214.63 49.022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 49.022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b599321-df1b-46ef-88e3-0b5d8dd582f2")
+		)
+		(pin "1"
+			(uuid "45dc4266-0b1f-4e0d-b47a-8dee2d3dd408")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H743VITx")
 		(at 226.314 136.144 0)
 		(unit 1)
@@ -8828,7 +8955,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.768 51.308 0)
+		(at 159.258 51.308 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8839,7 +8966,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e9d8c2d-426b-496d-aa26-312eade40abd")
 		(property "Reference" "#PWR028"
-			(at 175.768 57.658 0)
+			(at 159.258 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8850,7 +8977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.768 55.88 0)
+			(at 159.258 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8860,7 +8987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.768 51.308 0)
+			(at 159.258 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8871,7 +8998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.768 51.308 0)
+			(at 159.258 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8882,7 +9009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.768 51.308 0)
+			(at 159.258 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +9196,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.302 51.308 0)
+		(at 113.792 51.308 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9080,7 +9207,7 @@
 		(fields_autoplaced yes)
 		(uuid "15be241d-7d91-4ffc-ab73-2d187a01a891")
 		(property "Reference" "#PWR025"
-			(at 130.302 57.658 0)
+			(at 113.792 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9091,7 +9218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.302 55.88 0)
+			(at 113.792 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9101,7 +9228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.302 51.308 0)
+			(at 113.792 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9112,7 +9239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.302 51.308 0)
+			(at 113.792 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9123,7 +9250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.302 51.308 0)
+			(at 113.792 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9409,7 +9536,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.768 45.974 0)
+		(at 159.258 45.974 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9420,7 +9547,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c105b2f-680a-4d59-9e7c-d007f210a4e9")
 		(property "Reference" "C15"
-			(at 179.324 44.7039 0)
+			(at 162.814 44.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9431,7 +9558,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 179.324 47.2439 0)
+			(at 162.814 47.2439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9442,7 +9569,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 176.7332 49.784 0)
+			(at 160.2232 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9453,7 +9580,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
-			(at 175.768 45.974 0)
+			(at 159.258 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9591,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 175.768 45.974 0)
+			(at 159.258 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9662,7 +9789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 206.248 51.308 0)
+		(at 189.738 51.308 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9673,7 +9800,7 @@
 		(fields_autoplaced yes)
 		(uuid "32884a5f-bec7-451a-8005-f878e38edf07")
 		(property "Reference" "#PWR030"
-			(at 206.248 57.658 0)
+			(at 189.738 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +9811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 206.248 55.88 0)
+			(at 189.738 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9694,7 +9821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 206.248 51.308 0)
+			(at 189.738 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9705,7 +9832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 206.248 51.308 0)
+			(at 189.738 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +9843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 206.248 51.308 0)
+			(at 189.738 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10059,8 +10186,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 54.356 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40ea1bbd-5401-40c4-95b6-594158ed7483")
+		(property "Reference" "#PWR069"
+			(at 214.63 60.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d103e7d-14a8-4d09-b0aa-4f20a4622cd0")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/d99da23c-42db-4338-87a0-b38c4540e099"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 160.782 45.974 0)
+		(at 144.272 45.974 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10071,7 +10275,7 @@
 		(fields_autoplaced yes)
 		(uuid "47ae8476-67a0-4c7d-a5ad-dba96a7e28d9")
 		(property "Reference" "C14"
-			(at 164.338 44.7039 0)
+			(at 147.828 44.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10082,7 +10286,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 164.338 47.2439 0)
+			(at 147.828 47.2439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10093,7 +10297,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 161.7472 49.784 0)
+			(at 145.2372 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10104,7 +10308,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
-			(at 160.782 45.974 0)
+			(at 144.272 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10115,7 +10319,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.782 45.974 0)
+			(at 144.272 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,7 +10822,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.008 45.974 0)
+		(at 174.498 45.974 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10629,7 +10833,7 @@
 		(fields_autoplaced yes)
 		(uuid "5678c06d-1690-47bd-a518-4113ce68e3c2")
 		(property "Reference" "C16"
-			(at 194.564 44.7039 0)
+			(at 178.054 44.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10640,7 +10844,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 194.564 47.2439 0)
+			(at 178.054 47.2439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10651,7 +10855,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 191.9732 49.784 0)
+			(at 175.4632 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10662,7 +10866,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
-			(at 191.008 45.974 0)
+			(at 174.498 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +10877,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.008 45.974 0)
+			(at 174.498 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10782,7 +10986,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 145.288 51.308 0)
+		(at 128.778 51.308 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10793,7 +10997,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aa9aa5b-505b-4e1d-bd4d-8bf4f31fe22c")
 		(property "Reference" "#PWR026"
-			(at 145.288 57.658 0)
+			(at 128.778 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10804,7 +11008,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 145.288 55.88 0)
+			(at 128.778 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10814,7 +11018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.288 51.308 0)
+			(at 128.778 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10825,7 +11029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 145.288 51.308 0)
+			(at 128.778 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +11040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 145.288 51.308 0)
+			(at 128.778 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11424,7 +11628,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.302 45.974 0)
+		(at 113.792 45.974 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11435,7 +11639,7 @@
 		(fields_autoplaced yes)
 		(uuid "7322b020-8d28-4cd5-a789-e953d628e1ea")
 		(property "Reference" "C12"
-			(at 133.35 44.7039 0)
+			(at 116.84 44.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11446,7 +11650,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 133.35 47.2439 0)
+			(at 116.84 47.2439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11457,7 +11661,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 131.2672 49.784 0)
+			(at 114.7572 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11468,7 +11672,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KO8NNNC?qs=sGAEpiMZZMvsSlwiRhF8qvCY8MbTG5UFi%252BwjfjdYnr4%3D"
-			(at 130.302 45.974 0)
+			(at 113.792 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +11683,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.302 45.974 0)
+			(at 113.792 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12658,7 +12862,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 145.288 45.974 0)
+		(at 128.778 45.974 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12669,7 +12873,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2872ed9-cc80-4b3f-9d90-bb5a8440ad03")
 		(property "Reference" "C13"
-			(at 148.844 44.7039 0)
+			(at 132.334 44.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12680,7 +12884,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 148.844 47.2439 0)
+			(at 132.334 47.2439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12691,7 +12895,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 146.2532 49.784 0)
+			(at 129.7432 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12702,7 +12906,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
-			(at 145.288 45.974 0)
+			(at 128.778 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12713,7 +12917,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 145.288 45.974 0)
+			(at 128.778 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12818,7 +13022,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 113.284 41.656 0)
+		(at 96.774 41.656 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12829,7 +13033,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba9c5b6c-5c35-4d2f-b7b1-f4cc61c7c7da")
 		(property "Reference" "#PWR023"
-			(at 113.284 45.466 0)
+			(at 96.774 45.466 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12840,7 +13044,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 113.284 36.322 0)
+			(at 96.774 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12850,7 +13054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.284 41.656 0)
+			(at 96.774 41.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12861,7 +13065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.284 41.656 0)
+			(at 96.774 41.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12872,7 +13076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.284 41.656 0)
+			(at 96.774 41.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13294,7 +13498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.008 51.308 0)
+		(at 174.498 51.308 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13305,7 +13509,7 @@
 		(fields_autoplaced yes)
 		(uuid "d172a403-e783-4874-96e2-4446ea80828b")
 		(property "Reference" "#PWR029"
-			(at 191.008 57.658 0)
+			(at 174.498 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13316,7 +13520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.008 55.88 0)
+			(at 174.498 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13326,7 +13530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.008 51.308 0)
+			(at 174.498 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13337,7 +13541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.008 51.308 0)
+			(at 174.498 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13348,7 +13552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.008 51.308 0)
+			(at 174.498 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13770,7 +13974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.782 51.308 0)
+		(at 144.272 51.308 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13781,7 +13985,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcb08c95-e53a-432c-9ced-25608bf0396f")
 		(property "Reference" "#PWR027"
-			(at 160.782 57.658 0)
+			(at 144.272 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13792,7 +13996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.782 55.88 0)
+			(at 144.272 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13802,7 +14006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.782 51.308 0)
+			(at 144.272 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13813,7 +14017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.782 51.308 0)
+			(at 144.272 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13824,7 +14028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.782 51.308 0)
+			(at 144.272 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,7 +14372,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 206.248 45.974 0)
+		(at 189.738 45.974 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14179,7 +14383,7 @@
 		(fields_autoplaced yes)
 		(uuid "f13a19cd-7ff6-4555-9900-00ec972e4bb4")
 		(property "Reference" "C17"
-			(at 209.804 44.7039 0)
+			(at 193.294 44.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14190,7 +14394,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 209.804 47.2439 0)
+			(at 193.294 47.2439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14201,7 +14405,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.2132 49.784 0)
+			(at 190.7032 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14212,7 +14416,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
-			(at 206.248 45.974 0)
+			(at 189.738 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14223,7 +14427,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 206.248 45.974 0)
+			(at 189.738 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
