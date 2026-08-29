@@ -10552,7 +10552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 316.992 78.486 0)
+		(at 520.7 98.044 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10563,7 +10563,7 @@
 		(fields_autoplaced yes)
 		(uuid "55df8797-4de5-4e68-8676-386d25ab9204")
 		(property "Reference" "C22"
-			(at 320.548 77.2159 0)
+			(at 524.256 96.7739 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10574,7 +10574,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 320.548 79.7559 0)
+			(at 524.256 99.3139 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10585,7 +10585,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 317.9572 82.296 0)
+			(at 521.6652 101.854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10596,7 +10596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
-			(at 316.992 78.486 0)
+			(at 520.7 98.044 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10607,7 +10607,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 316.992 78.486 0)
+			(at 520.7 98.044 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
