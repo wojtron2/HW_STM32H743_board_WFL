@@ -5,7 +5,8 @@
 	(uuid "3ffbaf01-8fe7-4f96-b685-21b9df9d548a")
 	(paper "A4")
 	(title_block
-		(title "STM32H743 board IMU BMI088 schematics")
+		(title "STM32H743 board with IMU")
+		(rev "v0.5")
 		(company "by wojtron")
 	)
 	(lib_symbols)

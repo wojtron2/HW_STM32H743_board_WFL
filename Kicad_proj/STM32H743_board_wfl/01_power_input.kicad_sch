@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "STM32H743 board power input schematics")
+		(rev "v0.5")
 		(company "by wojtron")
 	)
 	(lib_symbols
@@ -1053,380 +1054,298 @@
 		)
 	)
 	(junction
-		(at 152.146 73.406)
+		(at 151.13 85.852)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f0c47e5-987a-4311-bb88-4c1ae8f069a1")
+		(uuid "0638a50e-b512-4053-8966-2281f1443c44")
 	)
 	(junction
-		(at 118.364 73.406)
+		(at 117.348 85.852)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10bf43bb-3088-4841-9c26-a2db875a1e9f")
+		(uuid "22dfddb8-9c16-4413-af21-63ba9e761548")
 	)
 	(junction
-		(at 138.684 88.646)
+		(at 151.13 101.092)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1eeeb552-f4af-4c28-82ed-f204f3bb86eb")
+		(uuid "2d80fd9c-669e-457d-89b4-a9c286a67a22")
 	)
 	(junction
-		(at 177.038 73.406)
+		(at 163.83 101.092)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2dd353f0-331c-4eed-ae37-b9e5bf25a0ef")
+		(uuid "3f6fca4e-7ef7-4178-9406-591e08adc029")
 	)
 	(junction
-		(at 152.146 88.646)
+		(at 163.83 85.852)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "389c6ee4-3fd5-4eae-8c26-c3cd4c5f4234")
+		(uuid "4ff79bb4-bc43-4e68-9683-567c2f6e844c")
 	)
 	(junction
-		(at 138.684 73.406)
+		(at 117.348 101.092)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4334959a-c25b-49fe-bc5b-3345dfa2e184")
+		(uuid "7f3bf56d-06a2-4749-9df6-82c95f0c577c")
 	)
 	(junction
-		(at 177.038 88.646)
+		(at 176.022 85.852)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b6c2197-7d9e-487c-b6b8-2cce4ed64ad6")
+		(uuid "a000eb37-1f6f-45ea-b5f2-b717a3be3f0c")
 	)
 	(junction
-		(at 118.364 88.646)
+		(at 137.668 85.852)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90a58ea7-1839-4ddd-a02a-4583053a49e4")
+		(uuid "adb60c06-b37e-4db2-8f99-b0da1b485c2b")
 	)
 	(junction
-		(at 164.846 88.646)
+		(at 137.668 101.092)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92458d2f-6b84-4a21-bc11-75c83b86fa1a")
+		(uuid "e3992095-4c4f-416c-b6cd-43c1db6b202f")
 	)
 	(junction
-		(at 164.846 73.406)
+		(at 176.022 101.092)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9a13757-7bc3-4f15-bef2-e96eccafe413")
+		(uuid "fae5d6d7-d4ae-485d-84c5-934da3fca5a5")
 	)
 	(wire
 		(pts
-			(xy 152.146 88.646) (xy 164.846 88.646)
+			(xy 176.022 85.852) (xy 203.454 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "057b0778-f620-4531-9074-a6c8eca295e4")
+		(uuid "0cda56d1-7806-4ea3-9745-691d1c8d2a75")
 	)
 	(wire
 		(pts
-			(xy 152.146 76.962) (xy 152.146 73.406)
+			(xy 117.348 101.092) (xy 137.668 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a860d3e-292a-4f2b-bd65-42aae63b5194")
+		(uuid "14f2e9ed-8836-4172-8168-55b6c28b2d99")
 	)
 	(wire
 		(pts
-			(xy 164.846 88.646) (xy 177.038 88.646)
+			(xy 109.474 85.852) (xy 117.348 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d6ad486-c5df-4ac7-b9da-e14f6bdc1508")
+		(uuid "1782dc2f-b9e3-41ba-90b0-a361cfa7b073")
 	)
 	(wire
 		(pts
-			(xy 138.684 73.406) (xy 152.146 73.406)
+			(xy 137.668 85.852) (xy 151.13 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d7c7a45-4541-48ab-94ee-00b4e95aaa2f")
+		(uuid "1dcf92f0-259b-4bb7-b661-fe3f155304e9")
 	)
 	(wire
 		(pts
-			(xy 164.846 84.582) (xy 164.846 88.646)
+			(xy 137.668 97.028) (xy 137.668 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fe97b33-2f67-4ad4-8872-deffa97fa257")
+		(uuid "262fb960-dcf4-4cbe-9787-0c4a6e8e74fa")
 	)
 	(wire
 		(pts
-			(xy 177.038 88.646) (xy 204.216 88.646)
+			(xy 163.83 85.852) (xy 176.022 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1921c6f5-b584-44e5-b5a9-28af236d9d27")
+		(uuid "3a97d4a0-e2af-4138-a1da-7e2012672068")
 	)
 	(wire
 		(pts
-			(xy 118.364 73.406) (xy 138.684 73.406)
+			(xy 137.668 85.852) (xy 137.668 89.408)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24849b39-751e-4eca-865c-bd831e51a2c0")
+		(uuid "417c062c-1439-47db-befe-18d5c49e2451")
 	)
 	(wire
 		(pts
-			(xy 118.364 77.216) (xy 118.364 73.406)
+			(xy 151.13 89.408) (xy 151.13 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b14ffd4-359a-45f3-b011-c45a0e6f9a64")
+		(uuid "56bd8061-c1b6-4800-a1a6-0abce5eb3127")
 	)
 	(wire
 		(pts
-			(xy 152.146 73.406) (xy 164.846 73.406)
+			(xy 117.348 85.852) (xy 137.668 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dabebc1-5132-4c00-ba85-f8ad35601ba1")
+		(uuid "64598c53-79e3-4c6d-bdd1-6a37a03ea386")
 	)
 	(wire
 		(pts
-			(xy 138.684 84.582) (xy 138.684 88.646)
+			(xy 82.804 101.092) (xy 117.348 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3356b81e-d660-4c4c-b32c-49799c372005")
+		(uuid "69ac0db6-4256-41b0-b746-319d1c0df939")
 	)
 	(wire
 		(pts
-			(xy 118.364 88.646) (xy 138.684 88.646)
+			(xy 151.13 97.028) (xy 151.13 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "342d6801-2ec4-4d29-a245-29284f2c934f")
+		(uuid "80d31042-e207-4baf-a32a-113932927cf0")
 	)
 	(wire
 		(pts
-			(xy 177.038 73.406) (xy 204.47 73.406)
+			(xy 176.022 85.852) (xy 176.022 89.408)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "637d539b-3f81-4860-903a-041c1a700169")
+		(uuid "98064cd2-ab20-48c0-b15a-7d792aaf7f3b")
 	)
 	(wire
 		(pts
-			(xy 177.038 73.406) (xy 177.038 76.962)
+			(xy 176.022 101.092) (xy 203.2 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71283827-c861-434d-b5e6-19b80e54b3c7")
+		(uuid "a5588191-c8d9-4b7d-b864-40701aa19c4b")
 	)
 	(wire
 		(pts
-			(xy 164.846 73.406) (xy 164.846 76.962)
+			(xy 163.83 101.092) (xy 176.022 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "863f28bc-dfa9-46d8-996a-9b7b83ab7675")
+		(uuid "afc8a5d0-a304-47f7-9ef6-2154006002bf")
 	)
 	(wire
 		(pts
-			(xy 110.49 73.406) (xy 118.364 73.406)
+			(xy 176.022 101.092) (xy 176.022 97.028)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93e42f01-1582-498a-80c4-161a0f7fb216")
+		(uuid "b7c1b002-721e-4412-9fc4-67520a7d41dd")
 	)
 	(wire
 		(pts
-			(xy 118.364 84.836) (xy 118.364 88.646)
+			(xy 151.13 101.092) (xy 163.83 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a29a0b15-4f60-458c-bd79-0de96d708818")
+		(uuid "befae35c-9d7e-4182-99be-92834ac5b20d")
 	)
 	(wire
 		(pts
-			(xy 138.684 73.406) (xy 138.684 76.962)
+			(xy 82.804 85.852) (xy 94.234 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a356d0c9-2717-4132-a4c2-68cbbccdaad1")
+		(uuid "c6b57034-ded3-40b4-aa13-517096b028c8")
 	)
 	(wire
 		(pts
-			(xy 83.82 73.406) (xy 95.25 73.406)
+			(xy 117.348 97.282) (xy 117.348 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b51697df-31d4-4ddb-8d20-fd7af2f878f6")
+		(uuid "e4e27ce9-6a12-4ba1-ac78-cf3f4524251e")
 	)
 	(wire
 		(pts
-			(xy 164.846 73.406) (xy 177.038 73.406)
+			(xy 117.348 89.662) (xy 117.348 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c481b285-0327-4b35-a790-e162088915fc")
+		(uuid "e5b8a3eb-504a-413e-bd6d-78adaacf6dce")
 	)
 	(wire
 		(pts
-			(xy 152.146 84.582) (xy 152.146 88.646)
+			(xy 151.13 85.852) (xy 163.83 85.852)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1d15ea4-a753-4f82-b9e2-ae9ed429b025")
+		(uuid "f02e4ffb-2676-46a3-8aac-648047ce77ad")
 	)
 	(wire
 		(pts
-			(xy 138.684 88.646) (xy 152.146 88.646)
+			(xy 163.83 85.852) (xy 163.83 89.408)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d69d0935-3a54-4a63-a33a-66b583129fbf")
+		(uuid "f0981af8-e3ee-4d88-8e90-bd374ea6f5eb")
 	)
 	(wire
 		(pts
-			(xy 177.038 88.646) (xy 177.038 84.582)
+			(xy 163.83 97.028) (xy 163.83 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddbbdfed-daf5-4ff5-922d-d07a82ee1e56")
+		(uuid "f8e9fa71-3cc0-4b88-bb35-7963c007771d")
 	)
 	(wire
 		(pts
-			(xy 83.82 88.646) (xy 118.364 88.646)
+			(xy 137.668 101.092) (xy 151.13 101.092)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e431ec86-1951-42b2-ab23-4e3d26c9b7b0")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 164.846 80.772 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06666210-26f0-40ad-9b8a-5dded2049ca7")
-		(property "Reference" "C3"
-			(at 168.148 79.5019 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 168.148 82.0419 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 165.8112 84.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/Walsin/SH18B105K160CT?qs=sGAEpiMZZMvsSlwiRhF8qtsBU8Zhqm2RmT0Bgn2YuQ8dzHrby8oIxA%3D%3D"
-			(at 164.846 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 164.846 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2344a455-82b2-4452-85be-5d1d31d69755")
-		)
-		(pin "2"
-			(uuid "41c71bb1-1c82-4d0e-8e77-4b07ad48a1fb")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f94192c9-f703-4fd8-b35c-1f3cb5d9ed0a")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.364 88.646 0)
+		(at 117.348 101.092 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1435,9 +1354,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25fc766d-a1a8-4430-8feb-9e393b81a406")
+		(uuid "0a301dd9-c6e1-4488-88ea-f84bf843e8e3")
 		(property "Reference" "#PWR04"
-			(at 118.364 94.996 0)
+			(at 117.348 107.442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,7 +1367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.364 93.726 0)
+			(at 117.348 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1458,7 +1377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.364 88.646 0)
+			(at 117.348 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1469,7 +1388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.364 88.646 0)
+			(at 117.348 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1480,7 +1399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.364 88.646 0)
+			(at 117.348 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1410,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8ca08c5-b363-4113-a084-3c6674222d32")
+			(uuid "b3fa4365-b6fe-4b5d-a246-e668c4225305")
 		)
 		(instances
 			(project "STM32H743_board_wfl"
@@ -1503,90 +1422,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 138.684 80.772 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f032a91-4d16-4798-a94e-ed2ca4ccec5b")
-		(property "Reference" "C1"
-			(at 142.24 79.5019 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 142.24 82.0419 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 139.6492 84.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TDK/C3216X5R1C476M160AB?qs=sGAEpiMZZMvsSlwiRhF8qsDt8B2LujiHTbQnXF56jQ8%3D"
-			(at 138.684 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.684 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26e9a610-d0ab-416f-b6dd-5d8a06156237")
-		)
-		(pin "2"
-			(uuid "1c6b217a-9b04-4552-adb0-99e95bbfb70a")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-BATT")
-		(at 83.82 88.646 180)
+		(at 82.804 101.092 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1595,9 +1432,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3048dac3-1176-47d3-98b4-109d155a7929")
+		(uuid "1441a02f-05a7-4da0-9c5d-5c94ceaa4ea6")
 		(property "Reference" "#PWR03"
-			(at 83.82 84.836 0)
+			(at 82.804 97.282 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1608,7 +1445,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 83.82 93.98 0)
+			(at 82.804 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1618,7 +1455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 88.646 0)
+			(at 82.804 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1629,7 +1466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 88.646 0)
+			(at 82.804 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,7 +1477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 83.82 88.646 0)
+			(at 82.804 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1651,7 +1488,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "03427343-4aba-4888-8e97-879e619a2eb3")
+			(uuid "e597bb33-e0e7-4fda-a4ad-482f86059720")
 		)
 		(instances
 			(project "STM32H743_board_wfl"
@@ -1663,8 +1500,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.216 88.646 0)
+		(lib_id "power:+24V")
+		(at 203.454 85.852 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1673,9 +1510,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ef2d611-061e-47e1-b3c7-63b593eb0d12")
-		(property "Reference" "#PWR05"
-			(at 204.216 94.996 0)
+		(uuid "28c98800-c827-40ab-b3b0-00a466bc42f8")
+		(property "Reference" "#PWR02"
+			(at 203.454 89.662 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1685,8 +1522,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 204.216 93.726 0)
+		(property "Value" "+26V_prefiltered"
+			(at 203.454 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1696,7 +1533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.216 88.646 0)
+			(at 203.454 85.852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1707,7 +1544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.216 88.646 0)
+			(at 203.454 85.852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1717,216 +1554,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.216 88.646 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dab399bf-429d-4443-9c8d-b9b424e56291")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "STM32H743_board_library_symbols:0680L1000-05")
-		(at 102.87 73.406 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad519a55-d6c4-4823-ae06-780c6556bbbd")
-		(property "Reference" "F2"
-			(at 102.87 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1A Fuse 0680L1000-05"
-			(at 102.87 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "STM32H743_board_library_footprints:FUSC6125X279N"
-			(at 102.87 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/pl/details/0680l1000-05/bezpieczniki-smd-2410-zwloczne/bel-fuse/"
-			(at 102.87 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "0679H Apr2019"
-			(at 102.87 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "BELFUSE"
-			(at 102.87 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.79mm"
-			(at 102.87 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 102.87 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "e4d68694-1043-44a3-aade-757d89a70a46")
-		)
-		(pin "1"
-			(uuid "1c63e378-4706-4699-8744-8c4f50210a60")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 177.038 80.772 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b67bfcd7-54a3-48ec-b1de-a8e86114e6d3")
-		(property "Reference" "C4"
-			(at 180.848 79.5019 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 180.848 82.0419 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 178.0032 84.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
-			(at 177.038 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.038 80.772 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 203.454 85.852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1937,15 +1566,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7233b902-0c97-4f28-8251-fd025afe070b")
-		)
-		(pin "2"
-			(uuid "b8485591-8786-48ce-9c5d-d1e49adfc6bf")
+			(uuid "76638dc5-2fa1-4e1b-8255-fad2a984d886")
 		)
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "C4")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1953,7 +1579,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 83.82 73.406 0)
+		(at 82.804 85.852 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1962,9 +1588,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b82adaa6-2b1f-4af1-9e85-85f4953c7b2e")
+		(uuid "37371395-99a6-43c3-9e7e-4b0d88a5c280")
 		(property "Reference" "#PWR01"
-			(at 83.82 77.216 0)
+			(at 82.804 89.662 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1975,7 +1601,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 83.82 68.326 0)
+			(at 82.804 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1985,7 +1611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 73.406 0)
+			(at 82.804 85.852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1996,7 +1622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 73.406 0)
+			(at 82.804 85.852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2007,7 +1633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 83.82 73.406 0)
+			(at 82.804 85.852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2018,7 +1644,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "179eec29-f5d6-48d9-9e7d-f4e64b3fb666")
+			(uuid "cc0b3c83-6a98-451f-a2db-135448807159")
 		)
 		(instances
 			(project "STM32H743_board_wfl"
@@ -2030,90 +1656,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 152.146 80.772 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b953517d-8c6c-4cb9-9b1f-42dc15dc3454")
-		(property "Reference" "C2"
-			(at 155.702 79.5019 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 155.702 82.0419 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 153.1112 84.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TDK/C3216X5R1C476M160AB?qs=sGAEpiMZZMvsSlwiRhF8qsDt8B2LujiHTbQnXF56jQ8%3D"
-			(at 152.146 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 152.146 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bd11f75-f5b3-4264-a7be-ebc4c1458c4e")
-		)
-		(pin "2"
-			(uuid "1ea541c7-ec44-4c6c-98db-cae3a71ff650")
-		)
-		(instances
-			(project "STM32H743_board_wfl"
-				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
-		(at 118.364 81.026 90)
+		(at 117.348 93.472 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2122,9 +1666,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de800acf-0e09-4bdc-a7a3-4209973503bf")
+		(uuid "6bac5815-9c7d-4535-8d35-9aa15e18f32f")
 		(property "Reference" "D1"
-			(at 120.65 79.7559 90)
+			(at 119.634 92.2019 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2135,7 +1679,7 @@
 			)
 		)
 		(property "Value" "SMBJ26A"
-			(at 120.65 82.2959 90)
+			(at 119.634 94.7419 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2146,7 +1690,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 118.364 81.026 0)
+			(at 117.348 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,7 +1701,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/pl/details/smbj26a-tr/diody-tvs-smd-jednokierunkowe/stmicroelectronics/"
-			(at 118.364 81.026 0)
+			(at 117.348 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +1712,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 118.364 81.026 0)
+			(at 117.348 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2179,10 +1723,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b55c99dc-1baa-45f0-8b14-36d212cf9453")
+			(uuid "a83c7063-b08e-40cb-ba88-72d8e07ad176")
 		)
 		(pin "1"
-			(uuid "94bba7c1-4557-4300-8be5-3a80dfe4cc9e")
+			(uuid "d5e2ee3f-bd47-48c0-949a-41486260040a")
 		)
 		(instances
 			(project "STM32H743_board_wfl"
@@ -2194,8 +1738,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 204.47 73.406 0)
+		(lib_id "power:GND")
+		(at 203.2 101.092 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2204,9 +1748,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fcd316e1-ae4b-4192-a8b8-303b139d787d")
-		(property "Reference" "#PWR02"
-			(at 204.47 77.216 0)
+		(uuid "7e1181f7-a8f5-48aa-b196-73dcb92372b5")
+		(property "Reference" "#PWR05"
+			(at 203.2 107.442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,8 +1760,8 @@
 				)
 			)
 		)
-		(property "Value" "+26V_prefiltered"
-			(at 204.47 68.58 0)
+		(property "Value" "GND"
+			(at 203.2 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2227,7 +1771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 73.406 0)
+			(at 203.2 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2238,7 +1782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 73.406 0)
+			(at 203.2 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,8 +1792,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 204.47 73.406 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2260,12 +1804,469 @@
 			)
 		)
 		(pin "1"
-			(uuid "845b8244-aaab-410c-8b6f-4bdb0ff3f3dc")
+			(uuid "664d2f34-1b18-4414-8caa-26060954c8d5")
 		)
 		(instances
 			(project "STM32H743_board_wfl"
 				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
-					(reference "#PWR02")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.668 93.218 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ec94e4e-d659-4505-aceb-11163786b426")
+		(property "Reference" "C1"
+			(at 141.224 91.9479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 141.224 94.4879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 138.6332 97.028 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TDK/C3216X5R1C476M160AB?qs=sGAEpiMZZMvsSlwiRhF8qsDt8B2LujiHTbQnXF56jQ8%3D"
+			(at 137.668 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.668 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5827a92-77ac-42f7-8e04-49fc8900f23a")
+		)
+		(pin "2"
+			(uuid "c3d40ab0-a246-4d17-a723-e17402100de1")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 93.218 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d30009dd-49fb-4518-b1ed-ca960204dff1")
+		(property "Reference" "C3"
+			(at 167.132 91.9479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 167.132 94.4879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 164.7952 97.028 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/Walsin/SH18B105K160CT?qs=sGAEpiMZZMvsSlwiRhF8qtsBU8Zhqm2RmT0Bgn2YuQ8dzHrby8oIxA%3D%3D"
+			(at 163.83 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0d49a5c-3e77-45c9-8e42-250860706a0f")
+		)
+		(pin "2"
+			(uuid "65a8040e-f144-4948-985d-017e194a28c5")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.022 93.218 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d86124b6-aaaa-43e3-a1b7-b3265d1ab750")
+		(property "Reference" "C4"
+			(at 179.832 91.9479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 179.832 94.4879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 176.9872 97.028 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MSAST105SB7104MFNB25?qs=sGAEpiMZZMs7ZEmUmaUL09vzuHXozE3EkFe3RaEcrjM8N4qw%2FjFtLg%3D%3D"
+			(at 176.022 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.022 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d6d1d3f-91e3-4554-b131-a832fed67407")
+		)
+		(pin "2"
+			(uuid "b1bca92f-f530-4d55-96da-d09fbd63d94c")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 93.218 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd5df2b6-b424-4742-be42-feddd62eab8c")
+		(property "Reference" "C2"
+			(at 154.686 91.9479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 154.686 94.4879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 152.0952 97.028 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/pl/ProductDetail/TDK/C3216X5R1C476M160AB?qs=sGAEpiMZZMvsSlwiRhF8qsDt8B2LujiHTbQnXF56jQ8%3D"
+			(at 151.13 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "720ca8ac-b77d-4482-9223-2f0980a2de2f")
+		)
+		(pin "2"
+			(uuid "1f88b465-9e56-40ac-bf49-1544a293e628")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STM32H743_board_library_symbols:0680L1000-05")
+		(at 101.854 85.852 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de328cbb-800c-4638-960b-1acb97f55844")
+		(property "Reference" "F2"
+			(at 101.854 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A Fuse 0680L1000-05"
+			(at 101.854 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "STM32H743_board_library_footprints:FUSC6125X279N"
+			(at 101.854 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/pl/details/0680l1000-05/bezpieczniki-smd-2410-zwloczne/bel-fuse/"
+			(at 101.854 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.854 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "0679H Apr2019"
+			(at 101.854 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 101.854 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.79mm"
+			(at 101.854 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 101.854 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "5f7b3821-82e7-4d57-9106-65f1d4fe6dcd")
+		)
+		(pin "1"
+			(uuid "eaa34de8-6d68-40a0-9ac6-71e40264a61c")
+		)
+		(instances
+			(project "STM32H743_board_wfl"
+				(path "/3ffbaf01-8fe7-4f96-b685-21b9df9d548a/81f7828a-9cc3-44cb-b1b6-c28345015d19"
+					(reference "F2")
 					(unit 1)
 				)
 			)
